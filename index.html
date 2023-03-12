@@ -115,7 +115,7 @@
                     let optionHTML = `<li>${String.fromCharCode(index + 65)}. ${option}</li>`;
                     if (highlightAnswers) {
                         if (answers.indexOf(index) >= 0) {
-                            optionHTML = `<li class="text-danger fw-bold">${String.fromCharCode(index + 65)}. ${option}</li>`;
+                            optionHTML = `<li class="text-danger fw-bold">✅ ${String.fromCharCode(index + 65)}. ${option}</li>`;
                         } else {
                             optionHTML = `<li class="text-secondary">${String.fromCharCode(index + 65)}. ${option}</li>`;
                         }
@@ -128,7 +128,7 @@
                 let optionHTML = '<li>A. 正确</li>';
                 if (highlightAnswers) {
                     if (question.answer === true) {
-                        optionHTML = '<li class="text-danger fw-bold">A. 正确</li>';
+                        optionHTML = '<li class="text-danger fw-bold">✅ A. 正确</li>';
                     } else {
                         optionHTML = '<li class="text-secondary">A. 正确</li>';
                     }
@@ -137,7 +137,7 @@
                 optionHTML = '<li>B. 错误</li>';
                 if (highlightAnswers) {
                     if (question.answer === false) {
-                        optionHTML = '<li class="text-danger fw-bold">B. 错误</li>';
+                        optionHTML = '<li class="text-danger fw-bold">✅ B. 错误</li>';
                     } else {
                         optionHTML = '<li class="text-secondary">B. 错误</li>';
                     }
