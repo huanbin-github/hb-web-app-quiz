@@ -15,190 +15,21 @@
 </head>
 
 <body>
-    <table class="table table-hover table-bordered">
+    <table class="table table-hover table-bordered" id="quiz-list">
         <thead>
             <tr>
-                <th>题目编号</th>
-                <th>题目类型</th>
-                <th>题目文本</th>
-                <th>题目答案</th>
+                <th>试卷名称</th>
+                <th></th>
             </tr>
         </thead>
-        <tbody id="questions-table-body">
+        <tbody>
         </tbody>
     </table>
-    <!-- Modal HTML -->
-    <div class="modal fade" id="answer-modal" tabindex="-1" aria-labelledby="answer-modal-label" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="answer-modal-label">答案</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <!-- Question HTML will be copied here -->
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        class QuizQuestion {
-            // base class for all quiz questions
-        }
-
-        class SingleChoice extends QuizQuestion {
-            constructor(question, options, answerIndex) {
-                super();
-                this.type = '单选题';
-                this.question = question;
-                this.options = options;
-                this.answerIndex = answerIndex;
-            }
-        }
-
-        class MultipleChoice extends QuizQuestion {
-            constructor(question, options, answerIndexes) {
-                super();
-                this.type = '多选题';
-                this.question = question;
-                this.options = options;
-                this.answerIndexes = answerIndexes;
-            }
-        }
-
-        class BinaryChoice extends QuizQuestion {
-            constructor(question, answer) {
-                super();
-                this.type = '判断题';
-                this.question = question;
-                this.answer = answer;
-            }
-        }
-
-        const parseQuestion = (question) => {
-            switch (question.type) {
-                case '单选题':
-                    return new SingleChoice(
-                        question.question,
-                        question.options,
-                        question.answerIndex
-                    );
-                case '多选题':
-                    return new MultipleChoice(
-                        question.question,
-                        question.options,
-                        question.answerIndexes
-                    );
-                case '判断题':
-                    return new BinaryChoice(question.question, question.answer);
-                default:
-                    throw new Error(`Invalid question type: ${question.type}`);
-            }
-        };
-    </script>
-    <script>
-        let questions = [];
-
-        const getQuestions = async (url) => {
-            const response = await fetch(url);
-            questions = await response.json();
-        };
-    </script>
-    <script>
-        const generateOptionsHTML = (question, highlightAnswers) => {
-            let optionsHTML = '';
-            const answers = question.answerIndexes || [question.answerIndex];
-            if (question.type === '单选题' || question.type === '多选题') {
-                optionsHTML += '<ul>';
-                question.options.forEach((option, index) => {
-                    let optionHTML = `<li>${String.fromCharCode(index + 65)}. ${option}</li>`;
-                    if (highlightAnswers) {
-                        if (answers.indexOf(index) >= 0) {
-                            optionHTML = `<li class="text-danger fw-bold">✅ ${String.fromCharCode(index + 65)}. ${option}</li>`;
-                        } else {
-                            optionHTML = `<li class="text-secondary">${String.fromCharCode(index + 65)}. ${option}</li>`;
-                        }
-                    }
-                    optionsHTML += optionHTML;
-                });
-                optionsHTML += '</ul>';
-            } else if (question.type === '判断题') {
-                optionsHTML += '<ul>';
-                let optionHTML = '<li>A. 正确</li>';
-                if (highlightAnswers) {
-                    if (question.answer === true) {
-                        optionHTML = '<li class="text-danger fw-bold">✅ A. 正确</li>';
-                    } else {
-                        optionHTML = '<li class="text-secondary">A. 正确</li>';
-                    }
-                }
-                optionsHTML += optionHTML;
-                optionHTML = '<li>B. 错误</li>';
-                if (highlightAnswers) {
-                    if (question.answer === false) {
-                        optionHTML = '<li class="text-danger fw-bold">✅ B. 错误</li>';
-                    } else {
-                        optionHTML = '<li class="text-secondary">B. 错误</li>';
-                    }
-                }
-                optionsHTML += optionHTML;
-                optionsHTML += '</ul>';
-            }
-            return optionsHTML;
-        };
-
-
-        // Function to generate the HTML for the table rows
-        const generateTableHTML = async () => {
-            let tableRowsHTML = '';
-            questions.forEach((question, index) => {
-                const parsedQuestion = parseQuestion(question);
-                const answerButtonHTML = '<button class="answer-button btn-primary" onClick="showAnswerModal(event)">显示答案</button>';
-                const questionHTML = `<p>${parsedQuestion.question}</p>${generateOptionsHTML(parsedQuestion, false)}`;
-                const tableRowHTML = `<tr>
-                <td>${index + 1}</td>
-                <td>${parsedQuestion.type}</td>
-                <td>${questionHTML}</td>
-                <td>${answerButtonHTML}</td>
-              </tr>`;
-                tableRowsHTML += tableRowHTML;
-            });
-            return tableRowsHTML;
-        };
-
-        // Function to attach the generated table HTML to the table body
-        const populateTable = async () => {
-            const tableBody = document.querySelector('#questions-table-body');
-            tableBody.innerHTML = await generateTableHTML();
-        };
-    </script>
-    <script>
-        const showAnswerModal = async (event) => {
-            const currentTr = event.target.closest('tr');
-            const questionIndex = event.target.parentNode.parentNode.rowIndex - 1;
-            const currentQuestion = questions[questionIndex];
-            const answerHTML = generateOptionsHTML(currentQuestion, true);
-
-            const answerModal = document.querySelector('#answer-modal');
-            const modalBody = answerModal.querySelector('.modal-body');
-
-            modalBody.innerHTML = `<p>${currentQuestion.question}</p>` + '<ul>' + answerHTML + '</ul>';
-
-            // Show the modal
-            const bootstrapModal = new bootstrap.Modal(answerModal);
-            bootstrapModal.show();
-        };
-    </script>
-    <script>
-        const onLoad = async () => {
-            await getQuestions('./q.json');
-            await populateTable();
-        };
-
-        window.addEventListener('load', onLoad);
-    </script>
-
+    <script src="./static/js/loadQuizList.js"></script>
+    <script src="./static/js/renderQuestion.js"></script>
+    <script src="./static/js/loadQuiz.js"></script>
+    <script src="./static/js/showAnswer.js"></script>
+    <script src="./static/js/startQuiz.js"></script>
 </body>
 
 </html>
