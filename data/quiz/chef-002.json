@@ -1,0 +1,601 @@
+[{
+    "type": "单选题",
+    "question": "冷菜的滋味不受（  ）限制，是理想的饮酒佳肴。",
+    "options": [
+        "温度",
+        "湿度",
+        "环境",
+        "技术"
+    ],
+    "answerIndex": 0
+}, {
+    "type": "单选题",
+    "question": "不新鲜家禽的肉色呈（  ）色。",
+    "options": [
+        "白",
+        "灰",
+        "橙",
+        "红"
+    ],
+    "answerIndex": 1
+}, {
+ "type": "单选题",
+    "question": "美化原料形状时一定要运用（  ）的刀法。",
+    "options": [
+        "剞",
+        "斩",
+        "批",
+        "劈"
+    ],
+    "answerIndex": 0
+}, {
+    "type":"单选题",
+    "question":"三拼冷盘是指盘中（  ）有三种。",
+    "options":[
+      "色泽",
+      "口味",
+      "原料",
+      "手法"
+    ],
+     "answerIndex":2
+},{
+        "type":"单选题",
+    "question":"厨房用具由设备和（  ）两大部分组成。",
+    "options":[
+      "饮具",
+      "炊具",
+      "用具",
+      "工具"
+    ],
+     "answerIndex":3
+},{
+    "type":"单选题",
+    "question":"鸡可按用途分为蛋用型、肉用型和（  ）。",
+    "options":[
+      "食蛋型",
+      "食肉型",
+      "蛋肉兼用型",
+      "菜台展示型"
+    ],
+     "answerIndex":2
+},{
+    "type":"单选题",
+    "question":"整条鱼要分档时，鱼尾可以在（  ）前端垂直下刀。",
+    "options":[
+      "胸鳍",
+      "腹鳍",
+      "臀鳍",
+      "尾鳍"
+    ],
+     "answerIndex":2
+},{
+    "type":"单选题",
+    "question":"中国菜的最大特点是选料广博和（  ）。",
+    "options":[
+      "烹调多样",
+      "切配复杂",
+      "加工精细",
+      "上浆挂糊"
+    ],
+     "answerIndex":0
+},{
+    "type":"单选题",
+    "question":"猪腿中最老的肉是（  ）。",
+    "options":[
+      "磨档肉",
+      "弹子肉",
+      "坐臀肉",
+      "臀尖肉"
+    ],
+     "answerIndex":2
+},{
+    "type":"单选题",
+    "question":"推刀剞的刀纹深度是原料底部有（  ）mm相连。",
+    "options":[
+      "0.5",
+      "1",
+      "1.5",
+      "2"
+    ],
+     "answerIndex":1
+},{
+    "type":"单选题",
+    "question":"火候是指烹调时的火力大小和（  ）的变化情况。",
+    "options":[
+      "原料多少",
+      "火焰大小",
+      "时间长短",
+      "技术高低"
+    ],
+     "answerIndex":2
+},{
+    "type":"单选题",
+    "question":"清炒虾仁的烹调的方法是（  ）。",
+    "options":[
+      "滑炒",
+      "滑熘",
+      "烩",
+      "炸"
+    ],
+     "answerIndex":0
+},{
+    "type":"单选题",
+    "question":"烹调过程是指（  ）。",
+    "options":[
+      "加热与调味",
+      "加热与调制",
+      "加热与定味",
+      "加热与入味"
+    ],
+     "answerIndex":0
+},{
+    "type":"单选题",
+    "question":"烹的作用之一是（  ）。",
+    "options":[
+      "去腥解腻",
+      "保持温度",
+      "提鲜起香",
+      "增艳色泽"
+    ],
+     "answerIndex":3
+},{
+    "type":"单选题",
+    "question":"糊与浆的（  ）一定要适度。",
+    "options":[
+      "纯度",
+      "稠度",
+      "湿度",
+      "浓度"
+    ],
+     "answerIndex":1
+},{
+    "type":"单选题",
+    "question":"基本调味是指在加热（  ）进行调味。",
+    "options":[
+      "前",
+      "中",
+      "后",
+      "前、中、后"
+    ],
+     "answerIndex":0
+},{
+    "type":"单选题",
+    "question":"加工面包片可以采用（  ）的刀法加工成形。",
+    "options":[
+      "直切",
+      "侧切",
+      "锯切",
+      "拉切"
+    ],
+     "answerIndex":2
+},{
+    "type":"单选题",
+    "question":"冷菜按组成的内容可以分为（  ）、拼盘和什锦冷盘。",
+    "options":[
+      "单碟",
+      "小碟",
+      "味碟",
+      "冷碟"
+    ],
+     "answerIndex":0
+},{
+    "type":"单选题",
+    "question":"菜肴装盘的基本要求是（  ）。",
+    "options":[
+      "清洁卫生",
+      "华丽富贵",
+      "有艺术性",
+      "有观赏性"
+    ],
+     "answerIndex":0
+},{
+    "type":"单选题",
+    "question":"蔬菜的共同特点是含有较多的（  ）。",
+    "options":[
+      "营养",
+      "水分",
+      "淀粉",
+      "果浆"
+    ],
+     "answerIndex":1
+},{
+    "type":"单选题",
+    "question":"铡切的刀法适用于带（  ）的原料。",
+    "options":[
+      "皮",
+      "筋",
+      "壳",
+      "膜"
+    ],
+     "answerIndex":2
+},{
+    "type":"单选题",
+    "question":"配菜时要了解原料的库存和市场（  ）。",
+    "options":[
+      "供求",
+      "观念",
+      "特点",
+      "理念"
+    ],
+     "answerIndex":0
+},{
+    "type":"单选题",
+    "question":"热菜配制时，刀工在烹调之（  ）。",
+    "options":[
+      "前",
+      "中",
+      "后",
+      "不分先后"
+    ],
+     "answerIndex":0
+},{
+    "type":"单选题",
+    "question":"配菜不仅要确定菜肴的数量，还要确定原料数量之间的（  ）。",
+    "options":[
+      "利率",
+      "比分",
+      "比例",
+      "净重"
+    ],
+     "answerIndex":2
+},{
+    "type":"单选题",
+    "question":"抖批适用于切（  ）。",
+    "options":[
+      "方腿",
+      "皮冻",
+      "红肠",
+      "鱼肉"
+    ],
+     "answerIndex":1
+},{
+    "type":"单选题",
+    "question":"可用于制作蒜泥白肉的猪肉是（  ）。",
+    "options":[
+      "磨档肉",
+      "弹子肉",
+      "臀尖肉",
+      "坐臀肉"
+    ],
+     "answerIndex":3
+},{
+    "type":"单选题",
+    "question":"不需要经过勾芡处理的烹调方法是（  ）。",
+    "options":[
+      "烧",
+      "氽",
+      "熘",
+      "烩"
+    ],
+     "answerIndex":1
+},{
+    "type":"单选题",
+    "question":"覆的拼摆手法与（  ）有相似之处。",
+    "options":[
+      "酿",
+      "排",
+      "叠",
+      "扣"
+    ],
+     "answerIndex":3
+},{
+    "type":"单选题",
+    "question":"《中华人民共和国食品卫生法》是由（  ）制定的我国第一部食品卫生法规。",
+    "options":[
+      "防疫部门",
+      "全国政协",
+      "全国人大",
+      "卫生部门"
+    ],
+     "answerIndex":2
+},{
+    "type":"单选题",
+    "question":"同小黄鱼一起被列为四大海产鱼的是（  ）。",
+    "options":[
+      "大黄鱼",
+      "鲳鱼",
+      "鳗鱼",
+      "带鱼"
+    ],
+     "answerIndex":3
+},{
+    "type":"单选题",
+    "question":"炒的烹调方法，需要用（  ）油量进行烹制。",
+    "options":[
+      "微---小",
+      "小---中",
+      "中---大",
+      "大---多"
+    ],
+     "answerIndex":1
+},{
+    "type":"单选题",
+    "question":"分档取料是对原料进行合理、及时地加工，以使（  ）变为净料。",
+    "options":[
+      "废料",
+      "毛料",
+      "原料",
+      "材料"
+    ],
+     "answerIndex":1
+},{
+    "type":"单选题",
+    "question":"爆的烹调方法，一般时间都比较（  ）。",
+    "options":[
+      "短",
+      "较长",
+      "长",
+      "很长"
+    ],
+     "answerIndex":0
+},{
+    "type":"单选题",
+    "question":"勾芡时常用的方法有浇和（  ）。",
+    "options":[
+      "冲",
+      "滴",
+      "淋",
+      "翻"
+    ],
+     "answerIndex":2
+},{
+    "type":"单选题",
+    "question":"鸡经过分档后可以得到最嫩的肉是（  ）。",
+    "options":[
+      "鸡胸肉",
+      "大腿肉",
+      "颈肉",
+      "鸡芽肉"
+    ],
+     "answerIndex":3
+},{
+    "type":"单选题",
+    "question":"鳓鱼在我国（  ）地区产量最多。",
+    "options":[
+      "东海",
+      "渤海",
+      "黄海",
+      "南海"
+    ],
+     "answerIndex":1
+},{
+    "type":"单选题",
+    "question":"在初步加工时，要注意保持原料的（  ）。",
+    "options":[
+      "水分",
+      "营养",
+      "气味",
+      "完整"
+    ],
+     "answerIndex":1
+},{
+    "type":"单选题",
+    "question":"桥形冷盘的盖面一般不少于（  ）片。",
+    "options":[
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+     "answerIndex":1
+},{
+    "type":"单选题",
+    "question":"家禽的宰杀大致要经过（  ）个步骤。",
+    "options":[
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+     "answerIndex":1
+},{
+    "type":"单选题",
+    "question":"胡萝卜又名（  ）。",
+    "options":[
+      "红萝卜",
+      "水萝卜",
+      "洋萝卜",
+      "心里美萝卜"
+    ],
+     "answerIndex":0
+},{
+    "type": "判断题",
+    "question": "烩是用汤将烹饪原料加热成熟并勾芡形成汤菜融合的一种烹调方法。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "冷菜可以活跃宴会的气氛。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "滑油时，锅要光滑，油要干净、无异味。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "在制作糊浆时，加水要充足，速度要慢。（）",
+    "answer": false
+}, {
+    "type": "判断题",
+    "question": "冷菜的主要特点是无汁无味。（）",
+    "answer": false
+}, {
+    "type": "判断题",
+    "question": "常用的糊有全蛋糊、蛋泡糊、蛋清糊和蛋黄糊。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "配菜也称配膳，就是根据烹调原料的性质进行配制组合。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "配菜就是指主料与调料的配合。（）",
+    "answer": false
+}, {
+    "type": "判断题",
+    "question": "炒是用油作为传热介质的一种烹调方法。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "呈酸甜味的调味品除番茄沙司、山楂酱外还有蜂蜜。（）",
+    "answer": false
+}, {
+    "type": "判断题",
+    "question": "上浆时的浆越厚越好。（）",
+    "answer": false
+}, {
+    "type": "判断题",
+    "question": "鲜嫩的香菌都可归属于食用菌类蔬菜。（）",
+    "answer": false
+}, {
+    "type": "判断题",
+    "question": "烹调具有杀菌消毒和确定口味的作用。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "除软炸外，一般炸的烹调方法采用的都是高温。（）",
+    "answer": false
+}, {
+    "type": "判断题",
+    "question": "烹饪原料的分类方法之一是按菜肴地位分类。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "新鲜肉的品质标准是肉质紧密、富有弹性。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "原料切丝必须先将原料加工成薄片。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "烹饪原料的选择原则可以简述为：掌握上市期、熟悉产地、辨认品种、了解性能。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "烹调的基本功包括科学切配、刀工精湛、掌握火候和装盘熟练。（）",
+    "answer": false
+}, {
+    "type": "判断题",
+    "question": "小虾仁的加工程序依次是摘、捏、挤。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "抖批是将原料加工成卷曲花纹的一种刀法。（）",
+    "answer": false
+}, {
+    "type": "判断题",
+    "question": "鸡、鸭完全断气、双脚却不断抽动时，才可拔毛。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "蟹的品质主要根据外形、色泽和体重及肉质等方面进行检验。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "配菜既要精通刀工，还要掌握烹调技术知识。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "将加工后的原料放入蛋液中搅拌称为上浆。（）",
+    "answer": false
+}, {
+    "type": "判断题",
+    "question": "大黄鱼为暖水性结群洄游性鱼类。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "烹调成功的要素是调味。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "炸是用油作为传热介质的一种烹调方法。()",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "原料形体小，加热的油锅的温度可高一些。（）",
+    "answer": false
+}, {
+    "type": "判断题",
+    "question": "原料形成的形态与原料的质地、大小、厚度有密切关系。（）",
+    "answer": false
+}, {
+    "type": "判断题",
+    "question": "在制作糊浆时，搅拌要先快后慢，先重后轻。（）",
+    "answer": false
+}, {
+    "type": "判断题",
+    "question": "四大经济海产鱼类中包括小黄鱼、带鱼、大黄鱼、鲳鱼。（）",
+    "answer": false
+}, {
+    "type": "判断题",
+    "question": "刀工操作时身体与砧板要保持15cm。（）",
+    "answer": false
+}, {
+    "type": "判断题",
+    "question": "虾的一般加工只要剪去须和虾脚，修齐虾头壳，洗净即可。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "四大家鱼指青鱼、草鱼、鲢鱼、鳙鱼。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "为了保证走红的原料色泽红润，可以添加适量的着色剂。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "刀工是指将原料加工成一定形状时的操作方法。（）",
+    "answer": false
+}, {
+    "type": "判断题",
+    "question": "段按长短、粗细分为大寸段和小寸段。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "主料中添加副料的配菜，目的是为了掩饰主料。（）",
+    "answer": false
+}, {
+    "type": "判断题",
+    "question": "汽蒸是一种烹调方法，不是初步热处理方法。（）",
+    "answer": false
+}, {
+    "type": "判断题",
+    "question": "双背是指黄鳝的背部两侧向中间分离，呈两片鳝肉。（）",
+    "answer": false
+}, {
+    "type": "判断题",
+    "question": "采用翻洗法洗涤的原料是肠和肚。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "蔬菜经采购和运输后，会由于挤压和摩擦，产生形态的变化。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "浙江菜由杭州、宁波、绍兴等地方菜组成，尤以杭州菜最负盛名。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "大翻不仅要用腕力，还要运用臂力。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "下芡时要汤汁沸滚。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "鲫鱼是我国四大淡水鱼养殖品种之一。（）",
+    "answer": false
+}, {
+    "type": "判断题",
+    "question": "嫩姜又称“子姜”。嫩姜可直接当配料做菜，老姜作调料。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "鸡、鸭的开膛方法有腹开、脊开、肋开。（）",
+    "answer": true
+}, {
+    "type": "判断题",
+    "question": "猪的夹心肉多用于叉烧或剁成泥做肉丸、馅料。（）",
+    "answer": true
+}]

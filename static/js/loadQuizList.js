@@ -1,6 +1,6 @@
 const quizList = [
     { name: "厨师证模拟试题1", quizFile: "./data/quiz/chef-001.json" },
-    { name: "厨师证模拟试题2", quizFile: undefined },
+    { name: "厨师证模拟试题2", quizFile: "./data/quiz/chef-002.json" },
 ];
 
 const loadQuizList = (quizList) => {
